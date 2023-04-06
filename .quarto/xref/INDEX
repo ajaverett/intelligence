@@ -1,0 +1,29 @@
+{
+  "index.qmd": {
+    "index.html": "1ff604e7"
+  },
+  "intro.qmd": {
+    "intro.html": "67bf7ac4"
+  },
+  "summary.qmd": {
+    "summary.html": "52be5a13"
+  },
+  "references.qmd": {
+    "references.html": "0c4f8a4e"
+  },
+  "tooabstract.qmd": {
+    "tooabstract.html": "ef40a30e"
+  },
+  "justtests.qmd": {
+    "justtests.html": "63046f81"
+  },
+  "2justtests.qmd": {
+    "2justtests.html": "87e79ba6"
+  },
+  "1tooabstract.qmd": {
+    "1tooabstract.html": "31952a88"
+  },
+  "3testbias.qmd": {
+    "3testbias.html": "55f00c98"
+  }
+}

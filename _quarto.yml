@@ -1,0 +1,25 @@
+project:
+  type: book
+
+book:
+  title: "IQ"
+  author: "Jane Doe"
+  date: "4/5/2023"
+  chapters:
+    - index.qmd
+    - 1tooabstract.qmd
+    - 2justtests.qmd
+    - 3testbias.qmd
+    - summary.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: pulse
+  pdf:
+    documentclass: scrreprt
+
+
+
