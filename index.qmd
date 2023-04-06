@@ -1,11 +1,9 @@
 # Introduction to Intelligence {.unnumbered}
 
-# Intelligence
+__WARNING: THIS IS A WORK IN PROGRESS AND MAY NOT BE ENTIRELY SCIENTIFICALLY ACCURATE. PLEASE DO NOT QUOTE ME ON THIS STUFF SINCE THIS IS NOTHING MORE THAN A HOBBY__
 
-__WARNING: THIS IS A WORK IN PROGRESS AND MAY NOT BE ENTIRELY SCIENTIFICALLY ACCURATE. PLEASE DO NOT QUOTE ME ON THIS STUFF UNTIL AT LEAST THIS DOCUMENT IS FINISHED__
+# Definitions
 
-# What is intelligence?
+(Phenotypically useful definition) “Intelligence is a very general mental capability that, among other things, involves the ability to reason, plan, solve problems, think abstractly, comprehend complex ideas, learn quickly and learn from experience.” [@gottfredson1997]
 
-(Phenotypically useful definition) “Intelligence is a very general mental capability that, among other things, involves the ability to reason, plan, solve problems, think abstractly, comprehend complex ideas, learn quickly and learn from experience.”
-
-(Statistically useful definition) “Intelligence is at the pinnacle of the hierarchical model of cognitive abilities that includes a middle level of group factors, such as the cognitive domains of verbal and spatial abilities and memory, and a third level of specific tests and their associated narrow cognitive skills.”
+(Statistically useful definition) “Intelligence is at the pinnacle of the hierarchical model of cognitive abilities that includes a middle level of group factors, such as the cognitive domains of verbal and spatial abilities and memory, and a third level of specific tests and their associated narrow cognitive skills.” [@plomin2015]

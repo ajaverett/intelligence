@@ -1,16 +1,17 @@
 project:
   type: book
+  output-dir: docs
+
 
 book:
   title: "IQ"
-  author: "Jane Doe"
+  author: "Aj!"
   date: "4/5/2023"
   chapters:
     - index.qmd
     - 1tooabstract.qmd
     - 2justtests.qmd
     - 3testbias.qmd
-    - summary.qmd
     - references.qmd
 
 bibliography: references.bib
