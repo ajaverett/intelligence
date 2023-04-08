@@ -25,5 +25,17 @@
   },
   "3testbias.qmd": {
     "3testbias.html": "55f00c98"
+  },
+  "4unreliablepsych.qmd": {
+    "4unreliablepsych.html": "d0d45de0"
+  },
+  "5consensus.qmd": {
+    "5consensus.html": "cec60284"
+  },
+  "6thresholdhyp.qmd": {
+    "6thresholdhyp.html": "4bb8c090"
+  },
+  "7mentallyill.qmd": {
+    "7mentallyill.html": "4e1c2c19"
   }
 }

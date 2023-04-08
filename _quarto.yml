@@ -12,6 +12,10 @@ book:
     - 1tooabstract.qmd
     - 2justtests.qmd
     - 3testbias.qmd
+    - 4unreliablepsych.qmd
+    - 5consensus.qmd
+    - 6thresholdhyp.qmd
+    - 7mentallyill.qmd
     - references.qmd
 
 bibliography: references.bib

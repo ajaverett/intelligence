@@ -1,0 +1,8 @@
+# Isn't the field of psychology unreliable?
+
+Psychology, among other fields, should absolutely be worried about the [replication crisis](https://en.wikipedia.org/wiki/Replication_crisis). However, some scientific fields and disciplines are more affected than others. For example, cognitive psychology at large has double the replication rate than social psychology.
+Cognitive Psychology. [@nosek2015]
+
+In general, ‘g’ is “probably the best measured and most studied human trait in all of psychology”. [@gottfredson2002 p. 25] Another prominent researcher on psychology of intelligence calls the general intelligence factor “certainly the most robust phenomenon in the social sciences,” and adds: “Despite torturous method of factor analysis, attacks from outraged critics and even long periods of being ignored, g [general intelligence] just keeps reappearing like the insistent relative that won’t go away” [@detterman2000 p.136]. This guy is also the founder of the journal Intelligence so he’s a very mainstream voice in this discussion.
+
+[@haier2019] states that in the field of intelligence, “there is no replication crisis about key empirical findings.” In general, “g is regarded as “perhaps the most replicated result in psychology” [@deary2000 p.318].
