@@ -16,6 +16,7 @@ book:
     - 5consensus.qmd
     - 6thresholdhyp.qmd
     - 7mentallyill.qmd
+    - 8sesfactors.qmd
     - references.qmd
 
 bibliography: references.bib
