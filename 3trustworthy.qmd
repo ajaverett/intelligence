@@ -1,6 +1,16 @@
-# Aren't intelligence tests biased?
+# Are intelligence tests trusted?
 
-## Evidences of test bias
+## Isn't the field of psychology unreliable?
+
+Psychology, among other fields, should absolutely be worried about the [replication crisis](https://en.wikipedia.org/wiki/Replication_crisis). However, some scientific fields and disciplines are more affected than others. For example, cognitive psychology at large has double the replication rate than social psychology.
+Cognitive Psychology. [@nosek2015]
+
+In general, ‘g’ is “probably the best measured and most studied human trait in all of psychology”. [@gottfredson2002 p. 25] Another prominent researcher on psychology of intelligence calls the general intelligence factor “certainly the most robust phenomenon in the social sciences,” and adds: “Despite torturous method of factor analysis, attacks from outraged critics and even long periods of being ignored, g [general intelligence] just keeps reappearing like the insistent relative that won’t go away” [@detterman2000 p.136]. This guy is also the founder of the journal Intelligence so he’s a very mainstream voice in this discussion.
+
+[@haier2019] states that in the field of intelligence, “there is no replication crisis about key empirical findings.” In general, “g is regarded as “perhaps the most replicated result in psychology” [@deary2000 p.318].
+
+
+## Evidences of test bias in intelligence tests
 
 There has been much debate around the potential bias of intelligence tests. However, research has consistently shown that intelligence tests, when administered and scored correctly, are not biased against any particular group or population.
 
@@ -14,7 +24,7 @@ And most important of all: logical and empirical examination: If intelligence te
 
 Content of many test formats (e.g., matrix tests, digit span) contains very little information that is unique to Western culture. It is not clear how numbers or geometric patterns are special to Western middle-class individuals.  Expert rated culturally loaded test items do not contribute to an increase in the Black/White divide. [@jensen1987] If test items were culturally loaded, (especially to a degree that would significantly change test results) this would mean test items ranked by difficulty would not correlate well by race. However, the opposite is true. [@reynolds2012] Correlation of rank order difficulty between cognitive batteries is nearly perfect among Blacks and Whites. 
 
-## Evidences regarding stereotype threat
+## Evidences regarding stereotype threat in intelligence tests
 
 __Racial bias__
 
@@ -22,3 +32,16 @@ The literature on stereotype threat is not great. [@schimmack2017] We have even 
 
 Compared to Whites, Blacks have higher self-esteem [@twenge2002], Lower suicide rates [@curtin2022], Lower rates of stress [@krueger2011], Lower risk for panic disorder, Lower risk for generalized anxiety order, Lower risk for social phobia [@breslau2006], Lower rates for depressive disorder [@riolo2005], Lower overall rate of mental disorders [@coleman2016]. Since Black people are more confident and mentally healthy, it doesn’t seem like stereotype threat could be a relevant factor. In conclusion: the evidence points to there being no cultural bias in IQ testing and there doesn't seem to be enough methodologically robust literature to make a certain claim on stereotype threat (though more recent analyses that factor for publication bias show null effects). The burden of proof rests on those who claim this to significantly affect the gap between blacks and whites.
 
+## Do scientists actually believe in general intelligence?
+
+The theory of IQ as the measure of general intelligence is mainstream. The American Psychological Association’s authoritative task force on intelligence stated that the theory of general intelligence is "the most widely accepted current view" [@neisser1996 p. 81]. 
+
+Fifty-eight percent of APA respondents favor some form of a general intelligence solution, whereas 13% feel separate faculties are superior. Only 16% think the data are sufficiently ambiguous as to not favor either solution. [@snyderman1987 p. 140]
+
+Mainstream Science on Intelligence, a Wallstreet Journal editorial with 52 signatories of 25 conclusions that represent the mainstream, Gottfredson writes that "Intelligence is a very general mental capability ... it reflects a broader and deeper capability for comprehending our surroundings ..." Of the invitation sent out to 131 researchers, only 11 responded that one or more of the conclusions did not represent the mainstream. [@gottfredson1997]
+
+In a conference attended by leading experts on human intelligence Michael Rutter, who is known for his moderate views, said: “All of us accept [g’s] reality. It is not merely a statistical artifact, rather, it really does represent something that is biologically important” [@rutter2000 p. 282]. One of the most prominent critics of general intelligence had to concede: “The evidence in favor of a general factor of intelligence is, in one sense, overwhelming ... One would have to be blind or intransigent not to give this evidence its due”
+[@sternberg2003 p. 375]
+
+Most recently, a survey of expert opinion on intelligence finds that "76% favored a general factor perspective" noting that "Experts favored a g
+factor perspective" [@rinderman2020 p. 4]

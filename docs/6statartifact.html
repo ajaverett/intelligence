@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>IQ - 5&nbsp; Do scientists actually believe in general intelligence?</title>
+<title>IQ - 6&nbsp; Isn’t g a statistical artifact?</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,25 +20,6 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1.6em;
   vertical-align: middle;
 }
-div.csl-bib-body { }
-div.csl-entry {
-  clear: both;
-}
-.hanging div.csl-entry {
-  margin-left:2em;
-  text-indent:-2em;
-}
-div.csl-left-margin {
-  min-width:2em;
-  float:left;
-}
-div.csl-right-inline {
-  margin-left:2em;
-  padding-left:1em;
-}
-div.csl-indent {
-  margin-left: 2em;
-}
 </style>
 
 
@@ -49,8 +30,8 @@ div.csl-indent {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./6thresholdhyp.html" rel="next">
-<link href="./4unreliablepsych.html" rel="prev">
+<link href="./7altmodels.html" rel="next">
+<link href="./5sesfactors.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -89,7 +70,7 @@ div.csl-indent {
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Do scientists actually believe in general intelligence?</span></h1>
+      <h1 class="quarto-secondary-nav-title"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Isn’t <em>g</em> a statistical artifact?</span></h1>
       <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
@@ -129,22 +110,27 @@ div.csl-indent {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./3testbias.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Aren’t intelligence tests biased?</span></a>
+  <a href="./3trustworthy.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Are intelligence tests trusted?</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./4unreliablepsych.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Isn’t the field of psychology unreliable?</span></a>
+  <a href="./4notuseful.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Are IQ tests even useful?</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./5consensus.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Do scientists actually believe in general intelligence?</span></a>
+  <a href="./5sesfactors.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Aren’t people are low IQ because they’re poor?</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./6thresholdhyp.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Isn’t IQ only useful for cognitively disabled people?</span></a>
+  <a href="./6statartifact.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Isn’t <em>g</em> a statistical artifact?</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./7altmodels.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Aren’t other models of intelligence more valid?</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -164,7 +150,7 @@ div.csl-indent {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Do scientists actually believe in general intelligence?</span></h1>
+<h1 class="title d-none d-lg-block"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Isn’t <em>g</em> a statistical artifact?</span></h1>
 </div>
 
 
@@ -179,33 +165,15 @@ div.csl-indent {
 
 </header>
 
-<p>The theory of IQ as the measure of general intelligence is mainstream. The American Psychological Association’s authoritative task force on intelligence stated that the theory of general intelligence is “the most widely accepted current view” <span class="citation" data-cites="neisser1996">(<a href="references.html#ref-neisser1996" role="doc-biblioref">Neisser et al. 1996, 81</a>)</span>.</p>
-<p>Fifty-eight percent of APA respondents favor some form of a general intelligence solution, whereas 13% feel separate faculties are superior. Only 16% think the data are sufficiently ambiguous as to not favor either solution. <span class="citation" data-cites="snyderman1987">(<a href="references.html#ref-snyderman1987" role="doc-biblioref">Snyderman and Rothman 1987, 140</a>)</span></p>
-<p>Mainstream Science on Intelligence, a Wallstreet Journal editorial with 52 signatories of 25 conclusions that represent the mainstream, Gottfredson writes that “Intelligence is a very general mental capability … it reflects a broader and deeper capability for comprehending our surroundings …” Of the invitation sent out to 131 researchers, only 11 responded that one or more of the conclusions did not represent the mainstream. <span class="citation" data-cites="gottfredson1997">(<a href="references.html#ref-gottfredson1997" role="doc-biblioref">Gottfredson 1997</a>)</span></p>
-<p>In a conference attended by leading experts on human intelligence Michael Rutter, who is known for his moderate views, said: “All of us accept [g’s] reality. It is not merely a statistical artifact, rather, it really does represent something that is biologically important” <span class="citation" data-cites="rutter2000">(<a href="references.html#ref-rutter2000" role="doc-biblioref">Rutter 2000, 282</a>)</span>. One of the most prominent critics of general intelligence had to concede: “The evidence in favor of a general factor of intelligence is, in one sense, overwhelming … One would have to be blind or intransigent not to give this evidence its due” <span class="citation" data-cites="sternberg2003">(<a href="references.html#ref-sternberg2003" role="doc-biblioref">Sternberg 2003, 375</a>)</span></p>
-<p>Most recently, a survey of expert opinion on intelligence finds that “76% favored a general factor perspective” noting that “Experts favored a g factor perspective” <span class="citation" data-cites="rinderman2020">(<a href="references.html#ref-rinderman2020" role="doc-biblioref">Rindermann, Becker, and Coyle 2020, 4</a>)</span></p>
+<p>There are many cognitive batteries that specifically do not try to look for ‘g’, some of which expressly try to avoid it.</p>
+<ul>
+<li><p>Researchers for the British Ability Scales lament that “there is little evidence that strong primary factors… have accounted for any substantial proportion of the common variance of the British Ability Scales. This is despite the fact that the scales sample a wide range of psychological functions.” It asks What, then, are we to make of the results of these analyses? Do they mean that we are back to square one, as it were, and that after 60 years of research we have turned full circle and are back with the theories of Spearman?” (Elliott 1986).</p></li>
+<li><p>The CAS Battery is based on the Soviet inspired PASS theory which disavows <em>g</em> and asserts that intelligence consists of four processes called Planning, Attention-Arousal, Simultaneous, and Successive. The CAS was designed to assess these four processes. However, Keith el al.&nbsp;2001 did a joint confirmatory factor analysis of the CAS together with the WJ-III battery, concluding that not only does the CAS not measure the constructs it was designed to measure, but that notwithstanding the test makers’ aversion to g, the g factor derived from the CAS is large and statistically indistinguishable from the g factor of the WJ-III. The CAS therefore appears to be the opposite of what it was supposed to be: an excellent test of the “non-existent” g and a poor test of the supposedly real non-g abilities it was painstakingly designed to measure.</p></li>
+<li><p>The triarchic theory of intelligence originated as an alternative to the concept of general intelligence factor, or g. (Vinney 2020; Brody 2003a, 2003b) analyzed Sternbergs work and finds a general factor of intelligence. Additionally, with tests that are radically different, Confirmatory Factor Analysis showed that different cognitive batteries (CAB, Hawaii Battery, WAIS) were analyzed, and it turned out that the g factors computed from the three tests (five tests in Johnson 2008) were statistically indistinguishable from one another, despite the fact that the tests tapped into partly different sets of abilities. (Johnson, 2004, 2008).</p></li>
+</ul>
+<p>On a biological level, it has been established beyond any dispute that cognitive abilities are heritable. (Poldeman 2015) Higher g-loadings correlate to higher heritabilities (Rushton &amp; Jensen 2010). Quantitative genetic analyses indicate that g is an even stronger genetic variable than it is a phenotypic variable. (Plomin &amp; Spinath 2004)</p>
 
 
-<div id="refs" class="references csl-bib-body hanging-indent" role="doc-bibliography" style="display: none">
-<div id="ref-gottfredson1997" class="csl-entry" role="doc-biblioentry">
-Gottfredson, Linda S. 1997. <span>“Mainstream Science on Intelligence: An Editorial with 52 Signatories, History, and Bibliography.”</span> <em>Intelligence</em> 24 (1): 13–23. https://doi.org/<a href="https://doi.org/10.1016/S0160-2896(97)90011-8">https://doi.org/10.1016/S0160-2896(97)90011-8</a>.
-</div>
-<div id="ref-neisser1996" class="csl-entry" role="doc-biblioentry">
-Neisser, Ulric, Gwyneth Boodoo, Thomas J. Bouchard Jr., A. Wade Boykin, Nathan Brody, Stephen J. Ceci, Diane F. Halpern, et al. 1996. <span>“Intelligence: Knowns and Unknowns.”</span> <em>American Psychologist</em> 51 (2): 77–101. <a href="https://doi.org/10.1037/0003-066X.51.2.77">https://doi.org/10.1037/0003-066X.51.2.77</a>.
-</div>
-<div id="ref-rinderman2020" class="csl-entry" role="doc-biblioentry">
-Rindermann, Heiner, David Becker, and Thomas R. Coyle. 2020. <span>“Survey of Expert Opinion on Intelligence: Intelligence Research, Experts’ Background, Controversial Issues, and the Media.”</span> <em>Intelligence</em> 78: 101406. https://doi.org/<a href="https://doi.org/10.1016/j.intell.2019.101406">https://doi.org/10.1016/j.intell.2019.101406</a>.
-</div>
-<div id="ref-rutter2000" class="csl-entry" role="doc-biblioentry">
-Rutter, Michael. 2000. <span>“Closing Remarks.”</span> In <em>The Nature of Intelligence</em>, 281–87. John Wiley &amp; Sons, Ltd. https://doi.org/<a href="https://doi.org/10.1002/0470870850.ch18">https://doi.org/10.1002/0470870850.ch18</a>.
-</div>
-<div id="ref-snyderman1987" class="csl-entry" role="doc-biblioentry">
-Snyderman, Mark, and Stanley Rothman. 1987. <span>“Survey of Expert Opinion on Intelligence and Aptitude Testing.”</span> <em>American Psychologist</em> 42: 137–44. <a href="https://doi.org/10.1037/0003-066X.42.2.137">https://doi.org/10.1037/0003-066X.42.2.137</a>.
-</div>
-<div id="ref-sternberg2003" class="csl-entry" role="doc-biblioentry">
-Sternberg, Robert J. 2003. <span>“Chapter 17 - <span>‘My House Is a Very Very Very Fine House’</span> —but It Is Not the Only House.”</span> In <em>The Scientific Study of General Intelligence</em>, edited by Helmuth Nyborg, 373–95. Oxford: Pergamon. https://doi.org/<a href="https://doi.org/10.1016/B978-008043793-4/50056-8">https://doi.org/10.1016/B978-008043793-4/50056-8</a>.
-</div>
-</div>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -343,13 +311,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./4unreliablepsych.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Isn’t the field of psychology unreliable?</span></span>
+      <a href="./5sesfactors.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Aren’t people are low IQ because they’re poor?</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./6thresholdhyp.html" class="pagination-link">
-        <span class="nav-page-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Isn’t IQ only useful for cognitively disabled people?</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./7altmodels.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Aren’t other models of intelligence more valid?</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

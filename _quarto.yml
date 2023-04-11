@@ -11,12 +11,11 @@ book:
     - index.qmd
     - 1tooabstract.qmd
     - 2justtests.qmd
-    - 3testbias.qmd
-    - 4unreliablepsych.qmd
-    - 5consensus.qmd
-    - 6thresholdhyp.qmd
-    - 7mentallyill.qmd
-    - 8sesfactors.qmd
+    - 3trustworthy.qmd
+    - 4notuseful.qmd
+    - 5sesfactors.qmd
+    - 6statartifact.qmd
+    - 7altmodels.qmd
     - references.qmd
 
 bibliography: references.bib
