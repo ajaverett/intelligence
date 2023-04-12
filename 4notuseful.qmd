@@ -14,4 +14,24 @@ For social and emotional outcomes, there is not much evidence about whether an I
 
 ## Do IQ score actually predict anything?
 
-[@strenze2015] charts all meta-analyses of correlates with intelligence. IQ predicts many things despite the test not being created to predict these things. 
+### General Correlates
+
+[@warne2020] charts several correlates with intelligence. IQ predicts many things despite the test not being created to predict these things. 
+
+![Table 22.1 from @warne2020, Sources: [@gottfredson1997b],[@jensen1998],[@strenze2015],[@warne2016]](images/warne2020.png)
+
+Warne notes: _Table 22.1 is a compilation of some of the variables that correlate with IQ scores. On the left side of the table are life outcomes that have a positive correlation with intelligence, which means that these outcome are more common for people who are smarter. The right side of the table lists variables that are negatively correlated with IQ, which means that these outcomes are less common for individuals who score high on intelligence tests. When possible, I have tried to group similar variables together into a category, such as educational variables, occupational variables, and so forth... I have generally omitted variables that have a weak correlation (less than r = ±.15) or variables that show up in a single study of a small or non-representative sample._
+
+The table from [@strenze2015] is as so:
+
+![Table 25.1, Strenze (2015)](images/strenze2015.jpg)
+
+### Occupational correlates
+
+GMA (general mental ability) or g's ability to predict workplace success seems to also be high. Below are two charts from [@roth2005] and [@schmidt1998]
+
+![@roth2005](images/roth2005.png)
+
+![@schmidt1998](images/schmidt1998.png)
+
+
