@@ -2,29 +2,29 @@ project:
   type: book
   output-dir: docs
 
-
-website:
-  favicon: images/bulb.png
-
 book:
   title: "IQ"
+  favicon: bulb.png
   author: "Aj!"
-  date: "4/5/2023"
+  date: "4/12/2023"
   chapters:
     - index.qmd
-    - 2justtests.qmd
-    - 3trustworthy.qmd
-    - 4notuseful.qmd
-    - 5sesfactors.qmd
-    - 6statartifact.qmd
-    - 7altmodels.qmd
+    - justtests.qmd
+    - trustworthy.qmd
+    - notuseful.qmd
+    - sesfactors.qmd
+    - statartifact.qmd
+    - altmodels.qmd
     - references.qmd
 
 bibliography: references.bib
 
 format:
   html:
-    theme: pulse
+    theme:
+      light: flatly
+      dark: darkly
+
   pdf:
     documentclass: scrreprt
 
