@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.2.280">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>IQ - 5&nbsp; Isn’t g a statistical artifact?</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./altmodels.html" rel="next">
+<link href="./sesfactors.html" rel="prev">
+<link href="./bulb.png" rel="icon" type="image/png">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-sidebar floating">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+    <div class="container-fluid d-flex justify-content-between">
+      <h1 class="quarto-secondary-nav-title"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Isn’t <em>g</em> a statistical artifact?</span></h1>
+      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
+        <i class="bi bi-chevron-right"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">IQ</a> 
+        <div class="sidebar-tools-main">
+  <a href="" class="quarto-color-scheme-toggle sidebar-tool" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+</div>
+    </div>
+      </div>
+      <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+      </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">Intelligence</a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./justtests.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">What do intelligence tests measure?</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./trustworthy.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Are intelligence tests trusted?</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./notuseful.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Are IQ tests even useful?</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./sesfactors.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Aren’t people are low IQ because they’re poor?</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./statartifact.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Isn’t <em>g</em> a statistical artifact?</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./altmodels.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Aren’t other models of intelligence more valid?</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./references.html" class="sidebar-item-text sidebar-link">References</a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#are-positive-intercorrelations-from-test-design" id="toc-are-positive-intercorrelations-from-test-design" class="nav-link active" data-scroll-target="#are-positive-intercorrelations-from-test-design"><span class="toc-section-number">5.1</span>  Are positive intercorrelations from test design?</a></li>
+  <li><a href="#other-evidence-for-g" id="toc-other-evidence-for-g" class="nav-link" data-scroll-target="#other-evidence-for-g"><span class="toc-section-number">5.2</span>  Other evidence for <em>g</em></a>
+  <ul class="collapse">
+  <li><a href="#jensen-effects" id="toc-jensen-effects" class="nav-link" data-scroll-target="#jensen-effects"><span class="toc-section-number">5.2.1</span>  Jensen effects</a></li>
+  <li><a href="#quantitative-genetic-correlates" id="toc-quantitative-genetic-correlates" class="nav-link" data-scroll-target="#quantitative-genetic-correlates"><span class="toc-section-number">5.2.2</span>  Quantitative genetic correlates</a></li>
+  <li><a href="#neurobiological-correlates" id="toc-neurobiological-correlates" class="nav-link" data-scroll-target="#neurobiological-correlates"><span class="toc-section-number">5.2.3</span>  Neurobiological correlates</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title d-none d-lg-block"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Isn’t <em>g</em> a statistical artifact?</span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<section id="are-positive-intercorrelations-from-test-design" class="level2" data-number="5.1">
+<h2 data-number="5.1" class="anchored" data-anchor-id="are-positive-intercorrelations-from-test-design"><span class="header-section-number">5.1</span> Are positive intercorrelations from test design?</h2>
+<p>There are many cognitive batteries that specifically do not try to look for ‘g’, some of which expressly try to avoid it.</p>
+<ul>
+<li><p>Researchers for the British Ability Scales lament that “there is little evidence that strong primary factors… have accounted for any substantial proportion of the common variance of the British Ability Scales. This is despite the fact that the scales sample a wide range of psychological functions.” It asks What, then, are we to make of the results of these analyses? Do they mean that we are back to square one, as it were, and that after 60 years of research we have turned full circle and are back with the theories of Spearman?” <span class="citation" data-cites="elliot1986">(<a href="references.html#ref-elliot1986" role="doc-biblioref">Elliott 1986</a>)</span>.</p></li>
+<li><p>The CAS Battery is based on the Soviet inspired <a href="https://en.wikipedia.org/wiki/PASS_theory_of_intelligence">PASS theory</a> which disavows <em>g</em> and asserts that intelligence consists of four processes called Planning, Attention-Arousal, Simultaneous, and Successive. The CAS was designed to assess these four processes. However, <span class="citation" data-cites="keith2001">(<a href="references.html#ref-keith2001" role="doc-biblioref">Keith, Kranzler, and Flanagan 2001</a>)</span> did a joint confirmatory factor analysis of the CAS together with the WJ-III battery, concluding that not only does the CAS not measure the constructs it was designed to measure, but that notwithstanding the test makers’ aversion to g, the g factor derived from the CAS is large and statistically indistinguishable from the g factor of the WJ-III. The CAS therefore appears to be the opposite of what it was supposed to be: an excellent test of the “non-existent” g and a poor test of the supposedly real non-g abilities it was painstakingly designed to measure.</p></li>
+<li><p>The triarchic theory of intelligence originated as an alternative to the concept of general intelligence factor, or g. <span class="citation" data-cites="vinney2021">(<a href="references.html#ref-vinney2021" role="doc-biblioref">Vinney 2021</a>)</span>; <span class="citation" data-cites="brody2003a">(<a href="references.html#ref-brody2003a" role="doc-biblioref">Brody 2003a</a>)</span>, <span class="citation" data-cites="brody2003b">(<a href="references.html#ref-brody2003b" role="doc-biblioref">Brody 2003b</a>)</span> analyzed Sternbergs work and finds a general factor of intelligence. Additionally, with tests that are radically different, Confirmatory Factor Analysis showed that different cognitive batteries (CAB, Hawaii Battery, WAIS) were analyzed, and it turned out that the g factors computed from the three tests (five tests in <span class="citation" data-cites="johnson2008">(<a href="references.html#ref-johnson2008" role="doc-biblioref">Johnson, Nijenhuis, and Bouchard 2008</a>)</span>) were statistically indistinguishable from one another, despite the fact that the tests tapped into partly different sets of abilities. <span class="citation" data-cites="johnson2004">(<a href="references.html#ref-johnson2004" role="doc-biblioref">Johnson et al. 2004</a>)</span>, <span class="citation" data-cites="johnson2008">(<a href="references.html#ref-johnson2008" role="doc-biblioref">Johnson, Nijenhuis, and Bouchard 2008</a>)</span>.</p></li>
+</ul>
+<p>The significance of this “positive manifold” is that we would not expect someone who is good at one cognitive test to just be good at all of them.</p>
+</section>
+<section id="other-evidence-for-g" class="level2" data-number="5.2">
+<h2 data-number="5.2" class="anchored" data-anchor-id="other-evidence-for-g"><span class="header-section-number">5.2</span> Other evidence for <em>g</em></h2>
+<section id="jensen-effects" class="level3" data-number="5.2.1">
+<h3 data-number="5.2.1" class="anchored" data-anchor-id="jensen-effects"><span class="header-section-number">5.2.1</span> Jensen effects</h3>
+<p>Practical validity: General intelligence is a good predictor of several seemingly unrelated life outcomes. For example, IQ is the best single predictor of academic and job performance and attainment, and one of the best predictors of a plethora of other outcomes, from income, welfare dependency, and criminality <span class="citation" data-cites="gottfredson1997b">(<a href="references.html#ref-gottfredson1997b" role="doc-biblioref">Gottfredson 1997</a>)</span> to <a href="https://en.wikipedia.org/wiki/Cognitive_epidemiology">health and mortality</a> and scientific and literary creativity <span class="citation" data-cites="robertson2010">(<a href="references.html#ref-robertson2010" role="doc-biblioref">Robertson et al. 2010</a>)</span>, and any number of other things, including even investing success <span class="citation" data-cites="grinblatt2012">(<a href="references.html#ref-grinblatt2012" role="doc-biblioref">Grinblatt, Keloharju, and Linnainmaa 2012</a>)</span>. If you had to predict the life outcomes of a teenager based on only one fact about them, nothing would be nearly as informative as their IQ.</p>
+<p>One interesting thing about the predictive validity of a cognitive test is that it is directly related to the test’s g loading. The higher the g loading, the better the validity. In fact, although the g factor generally accounts for less than half of all the variance in a given IQ battery, a lot of research indicates that it accounts for almost all of the predictive validity. The best evidence here are from several large-scale studies of US Air Force personnel. These studies contrasted g and a number of more specific abilities as predictors of performance in Air Force training <span class="citation" data-cites="ree1991">(<a href="references.html#ref-ree1991" role="doc-biblioref">Malcom James Ree and Earles 1991</a>)</span> and jobs <span class="citation" data-cites="ree1994">(<a href="references.html#ref-ree1994" role="doc-biblioref">Malcolm James Ree, Earles, and Teachout 1994</a>)</span>. The results indicated that g is the best predictor of training and job performance across all specialties, and that specific ability tests tailored for each specialty provide little or no incremental validity over g. Thus if you wanted to predict someone’s performance in training or a job, it would be much more useful for you to get their general mental ability score rather than scores on any specific ability tests that are closely matched to the task at hand. This appears to be true in all jobs <span class="citation" data-cites="schmidt1998">(<a href="references.html#ref-schmidt1998" role="doc-biblioref">Schmidt and Hunter 1998</a>)</span>; <span class="citation" data-cites="schmidt2004">(<a href="references.html#ref-schmidt2004" role="doc-biblioref">Schmidt and Hunter 2004</a>)</span>, although specific ability scores may provide substantial incremental validity in the case of high-IQ individuals <span class="citation" data-cites="robertson2010">(<a href="references.html#ref-robertson2010" role="doc-biblioref">Robertson et al. 2010</a>)</span>, which is in accord with Charles Spearman’s view that abilities become more differentiated at higher levels of g. (This is why it makes sense for selective colleges to use admission tests that assess different abilities.)</p>
+<p>For more evidence of how general the predictive validity of g is, we can look at the validity of g as a predictor of performance in GCSEs (<a href="https://en.wikipedia.org/wiki/General_Certificate_of_Secondary_Education">General Certificate of Secondary Education</a>), which are academic qualifications awarded in different school subjects at age 14 to 16 in the United Kingdom. <span class="citation" data-cites="deary2007">(<a href="references.html#ref-deary2007" role="doc-biblioref">Deary et al. 2007</a>)</span> conducted a prospective study with a very large sample where g was measured at age 11 and GCSEs were obtained about five years later. The g scores correlated positively and substantially with the results of all 25 GCSEs, explaining (to give some examples) about 59 percent of individual differences in math, about 40 to 50 percent in English and foreign languages, and, at the low end, about 18 percent in Art and Design. In contrast, verbal ability, independently of g, explained an average of only 2.2 percent (range 0.0-7.2%) of the results in the 25 exams.</p>
+<p>Arthur Jensen referred to g as the “active ingredient” of IQ tests, because g accounts for most if not all of the predictive validity of IQ even though most variance in IQ tests is not g variance. From the perspective of predictive validity, non-g variance seems to be generally just noise. In other words, if you statistically remove g variance from IQ test results, what is left is almost useless for the purposes of predicting behavior (except among high-IQ individuals, as noted above). This is a very surprising finding if one thinks that different mental abilities are actually independent, and g is just an uninteresting statistical artifact caused by an occasional recruitment of many uncorrelated abilities for the same task.</p>
+<p><strong>Hollowness of IQ training effects</strong></p>
+<p>Another interesting fact about g is that there is there is a systematic relation between g loadings and practice effects in IQ tests. A meta-analysis of re-testing effects on IQ scores showed that there is a perfect negative correlation between score gains and g loadings of tests <span class="citation" data-cites="tenijenhuis2007">(<a href="references.html#ref-tenijenhuis2007" role="doc-biblioref">te Nijenhuis, van Vianen, and van der Flier 2007</a>)</span>. It appears that specific abilities are trainable but g is generally not (see also <span class="citation" data-cites="arendasy2013">Arendasy and Sommer (<a href="references.html#ref-arendasy2013" role="doc-biblioref">2013</a>)</span>). Similarly, a recent meta-analysis of the effects of working memory training on intelligence showed, in line with many earlier reviews, that cognitive training produces short-term gains in the specific abilities trained, but no “far transfer” to any other abilities <span class="citation" data-cites="melbylervag2013">(<a href="references.html#ref-melbylervag2013" role="doc-biblioref">Melby-Lervåg and Hulme 2013</a>)</span>. Jensen called such gains hollow because they do not seem to represent actual improvements in real-world intellectual performance. These findings are consistent with the view that g is a “central processing unit” that cannot be defined in terms of specific abilities and is not affected by changes in those abilities.</p>
+</section>
+<section id="quantitative-genetic-correlates" class="level3" data-number="5.2.2">
+<h3 data-number="5.2.2" class="anchored" data-anchor-id="quantitative-genetic-correlates"><span class="header-section-number">5.2.2</span> Quantitative genetic correlates</h3>
+<p>On a biological level, cognitive abilities are heritable. <span class="citation" data-cites="polderman2015">(<a href="references.html#ref-polderman2015" role="doc-biblioref">Polderman et al. 2015</a>)</span> Higher g-loadings correlate to higher heritabilities <span class="citation" data-cites="jensen1987">(<a href="references.html#ref-jensen1987" role="doc-biblioref">Jensen 1987</a>)</span>,<span class="citation" data-cites="rushton2007">(<a href="references.html#ref-rushton2007" role="doc-biblioref">J. P. Rushton et al. 2007</a>)</span>, <span class="citation" data-cites="vanbloois2009">(<a href="references.html#ref-vanbloois2009" role="doc-biblioref">Van Bloois et al. 2009</a>)</span>,<span class="citation" data-cites="tenijenhuis2014">(<a href="references.html#ref-tenijenhuis2014" role="doc-biblioref">te Nijenhuis, Kura, and Hur 2014</a>)</span>. Quantitative genetic analyses indicate that g is an even stronger genetic variable than it is a phenotypic variable. <span class="citation" data-cites="plomin2004">(<a href="references.html#ref-plomin2004" role="doc-biblioref">Plomin and Spinath 2004</a>)</span> states,</p>
+<p><em>“Multivariate genetic analysis yields a statistic called genetic correlation, which is an index of the extent to which genetic effects on one trait correlate with genetic effects on another trait independent of the heritability of the two traits. That is, two traits could be highly heritable but the genetic correlation between them could be zero. Conversely, two traits could be only modestly heritable but the genetic correlation between them could be 1.0, indicating that even though genetic effects are not strong (because heritability is modest) the same genetic effects are involved in both traits. In the case of specific cognitive abilities that are moderately heritable, multivariate genetic analyses have consistently found that genetic correlations are very high—close to 1.0 <span class="citation" data-cites="petrill1997">(<a href="references.html#ref-petrill1997" role="doc-biblioref">Petrill 1997</a>)</span>. That is, although Spearman’s g is a phenotypic construct, g is even stronger genetically. These multivariate genetic results predict that when genes are found that are associated with one cognitive ability, such as spatial ability, they will also be associated just as strongly with other cognitive abilities, such as verbal ability or memory. Conversely, attempts to find genes for specific cognitive abilities independent of general cognitive ability are unlikely to succeed because what is in common among cognitive abilities is largely genetic and what is independent is largely environmental.”</em></p>
+</section>
+<section id="neurobiological-correlates" class="level3" data-number="5.2.3">
+<h3 data-number="5.2.3" class="anchored" data-anchor-id="neurobiological-correlates"><span class="header-section-number">5.2.3</span> Neurobiological correlates</h3>
+<p>The controversy if brain anatomy correlates with intelligence has existed for decades but since the 1980s some neuroscientists have worked to bridge the gap between these two fields, and in the twenty-first century their evidence and theories support the belief that g does indeed have connections to brain anatomy and functioning twenty-first century their evidence and theories support the belief that g does indeed have connections to brain anatomy and functioning <span class="citation" data-cites="haier2017">(<a href="references.html#ref-haier2017" role="doc-biblioref">Haier 2017</a>)</span>.</p>
+<p><strong>Brain Volume</strong></p>
+<p>There are brain characteristics that do correlate with IQ scores. One of the best known is the correlation between brain size and intelligence, which when measured via brain-imaging techniques in living individuals is between r = .20 and .40. Other measures of brain size (e.g., data from autopsies, or measures of head circumference) have weaker, though positive, correlations <span class="citation" data-cites="cox2019">(<a href="references.html#ref-cox2019" role="doc-biblioref">Cox et al. 2019</a>)</span>; <span class="citation" data-cites="gignac2017">(<a href="references.html#ref-gignac2017" role="doc-biblioref">Gignac and Bates 2017</a>)</span>; <span class="citation" data-cites="lee2019">(<a href="references.html#ref-lee2019" role="doc-biblioref">Lee et al. 2019</a>)</span>; <span class="citation" data-cites="pietschnig2015">(<a href="references.html#ref-pietschnig2015" role="doc-biblioref">Pietschnig et al. 2015</a>)</span>; <span class="citation" data-cites="rushton2009">(<a href="references.html#ref-rushton2009" role="doc-biblioref">J. Rushton and Ankney 2009</a>)</span>. A 2022 meta-analysis ultimately states that most reasonable estimates for the brain size and IQ link yield r-values in the mid-0.20s, with the most extreme specifications yielding rs of 0.10 and 0.37. <span class="citation" data-cites="pietschnig2022">(<a href="references.html#ref-pietschnig2022" role="doc-biblioref">Pietschnig et al. 2022</a>)</span>. Additionally, measures of the size of the whole brain are more strongly correlated than measures of specific brain regions. It is important, though, to note that the size of the frontal lobes seems more strongly correlated with IQ than other regions of the brain <span class="citation" data-cites="cox2019">(<a href="references.html#ref-cox2019" role="doc-biblioref">Cox et al. 2019</a>)</span>; <span class="citation" data-cites="flashman1997">(<a href="references.html#ref-flashman1997" role="doc-biblioref">Flashman et al. 1997</a>)</span>.</p>
+<p>There seems to be some sort of association with <em>g</em> since better measures of g produce stronger correlations with brain size <span class="citation" data-cites="gignac2017">(<a href="references.html#ref-gignac2017" role="doc-biblioref">Gignac and Bates 2017</a>)</span>, <span class="citation" data-cites="pietschnig2022">(<a href="references.html#ref-pietschnig2022" role="doc-biblioref">Pietschnig et al. 2022</a>)</span>. The relationship between brain volume and IQ is clearly complex and seems to be modestly moderated by g. <span class="citation" data-cites="woodleyofmenie2016">(<a href="references.html#ref-woodleyofmenie2016" role="doc-biblioref">Woodley of Menie et al. 2016</a>)</span></p>
+<p><strong>Other Brain Characteristics</strong></p>
+<p>Since the 1990s, neuroscientists have discovered more variables correlated with IQ. For example, research has shown the importance of the white matter in the brain, which is the tissue that connects brain regions to one another. Volume of white matter is correlated with speed of problem solving <span class="citation" data-cites="penke2012">(<a href="references.html#ref-penke2012" role="doc-biblioref">Penke et al. 2012</a>)</span> and with IQ, thus showing that connectivity of brain regions is likely to be an important determinant of intelligence levels <span class="citation" data-cites="haier2017">(<a href="references.html#ref-haier2017" role="doc-biblioref">Haier 2017</a>)</span>; <span class="citation" data-cites="kievit2016">(<a href="references.html#ref-kievit2016" role="doc-biblioref">Kievit et al. 2016</a>)</span>. Likewise, grey matter (where the neuron cell bodies are found) is important; loss of neurons due to disease is associated with decreases in IQ <span class="citation" data-cites="vanveluw2012">(<a href="references.html#ref-vanveluw2012" role="doc-biblioref">Veluw et al. 2012</a>)</span>. Additionally, smarter people have more neurons in their brains, and those neurons are more densely packed together <span class="citation" data-cites="genç2018">(<a href="references.html#ref-genç2018" role="doc-biblioref">Genç et al. 2018</a>)</span>. Another intriguing recent finding is that neurons are better organized in high-IQ ndividuals’ brains than in the brains of people who score poorly on intelligence tests.</p>
+
+
+<div id="refs" class="references csl-bib-body hanging-indent" role="doc-bibliography" style="display: none">
+<div id="ref-arendasy2013" class="csl-entry" role="doc-biblioentry">
+Arendasy, Martin E., and Markus Sommer. 2013. <span>“Quantitative Differences in Retest Effects Across Different Methods Used to Construct Alternate Test Forms.”</span> <em>Intelligence</em> 41 (3): 181–92. https://doi.org/<a href="https://doi.org/10.1016/j.intell.2013.02.004">https://doi.org/10.1016/j.intell.2013.02.004</a>.
+</div>
+<div id="ref-brody2003a" class="csl-entry" role="doc-biblioentry">
+Brody, Nathan. 2003a. <span>“Construct Validation of the Sternberg Triarchic Abilities Test: Comment and Reanalysis.”</span> <em>Intelligence</em> 31 (4): 319–29. https://doi.org/<a href="https://doi.org/10.1016/S0160-2896(01)00087-3">https://doi.org/10.1016/S0160-2896(01)00087-3</a>.
+</div>
+<div id="ref-brody2003b" class="csl-entry" role="doc-biblioentry">
+———. 2003b. <span>“What Sternberg Should Have Concluded.”</span> <em>Intelligence</em> 31 (4): 339–42. https://doi.org/<a href="https://doi.org/10.1016/S0160-2896(02)00190-3">https://doi.org/10.1016/S0160-2896(02)00190-3</a>.
+</div>
+<div id="ref-cox2019" class="csl-entry" role="doc-biblioentry">
+Cox, S. R., S. J. Ritchie, C. Fawns-Ritchie, E. M. Tucker-Drob, and I. J. Deary. 2019. <span>“Structural Brain Imaging Correlates of General Intelligence in UK Biobank.”</span> <em>Intelligence</em> 76: 101376. https://doi.org/<a href="https://doi.org/10.1016/j.intell.2019.101376">https://doi.org/10.1016/j.intell.2019.101376</a>.
+</div>
+<div id="ref-deary2007" class="csl-entry" role="doc-biblioentry">
+Deary, Ian, Steve Strand, Pauline Smith, and Cres Fernandes. 2007. <span>“Intelligence and Educational Achievement.”</span> <em>Intelligence</em> 35 (February): 13–21. <a href="https://doi.org/10.1016/j.intell.2006.02.001">https://doi.org/10.1016/j.intell.2006.02.001</a>.
+</div>
+<div id="ref-elliot1986" class="csl-entry" role="doc-biblioentry">
+Elliott, Colin D. 1986. <span>“The Factorial Structure and Specificity of the British Ability Scales.”</span> <em>British Journal of Psychology</em> 77 (2): 175–85. https://doi.org/<a href="https://doi.org/10.1111/j.2044-8295.1986.tb01992.x">https://doi.org/10.1111/j.2044-8295.1986.tb01992.x</a>.
+</div>
+<div id="ref-flashman1997" class="csl-entry" role="doc-biblioentry">
+Flashman, Laura A., Nancy C. Andreasen, Michael Flaum, and Victor W. Swayze. 1997. <span>“Intelligence and Regional Brain Volumes in Normal Controls.”</span> <em>Intelligence</em> 25 (3): 149–60. https://doi.org/<a href="https://doi.org/10.1016/S0160-2896(97)90039-8">https://doi.org/10.1016/S0160-2896(97)90039-8</a>.
+</div>
+<div id="ref-genç2018" class="csl-entry" role="doc-biblioentry">
+Genç, Erhan, Christoph Fraenz, Caroline Schlüter, Patrick Friedrich, Rüdiger Hossiep, Manuel Voelkle, Josef Ling, Onur Güntürkün, and Rex Jung. 2018. <span>“Diffusion Markers of Dendritic Density and Arborization in Gray Matter Predict Differences in Intelligence.”</span> <em>Nature Communications</em> 9 (May). <a href="https://doi.org/10.1038/s41467-018-04268-8">https://doi.org/10.1038/s41467-018-04268-8</a>.
+</div>
+<div id="ref-gignac2017" class="csl-entry" role="doc-biblioentry">
+Gignac, Gilles, and Timothy Bates. 2017. <span>“Brain Volume and Intelligence: The Moderating Role of Intelligence Measurement Quality.”</span> <em>Intelligence</em> 64 (September): 18–29. <a href="https://doi.org/10.1016/j.intell.2017.06.004">https://doi.org/10.1016/j.intell.2017.06.004</a>.
+</div>
+<div id="ref-gottfredson1997b" class="csl-entry" role="doc-biblioentry">
+Gottfredson, Linda S. 1997. <span>“Why g Matters: The Complexity of Everyday Life.”</span> <em>Intelligence</em> 24 (1): 79–132. https://doi.org/<a href="https://doi.org/10.1016/S0160-2896(97)90014-3">https://doi.org/10.1016/S0160-2896(97)90014-3</a>.
+</div>
+<div id="ref-grinblatt2012" class="csl-entry" role="doc-biblioentry">
+Grinblatt, Mark, Matti Keloharju, and Juhani T. Linnainmaa. 2012. <span>“IQ, Trading Behavior, and Performance.”</span> <em>Journal of Financial Economics</em> 104 (2): 339–62. https://doi.org/<a href="https://doi.org/10.1016/j.jfineco.2011.05.016">https://doi.org/10.1016/j.jfineco.2011.05.016</a>.
+</div>
+<div id="ref-haier2017" class="csl-entry" role="doc-biblioentry">
+Haier, R. J. 2017. <em>The Neuroscience of Intelligence</em>. Cambridge Fundamentals of Neuroscience in Psychology. Cambridge University Press. <a href="https://books.google.com/books?id=qtZsDQAAQBAJ">https://books.google.com/books?id=qtZsDQAAQBAJ</a>.
+</div>
+<div id="ref-jensen1987" class="csl-entry" role="doc-biblioentry">
+Jensen, Arthur R. 1987. <span>“Individual Differences in Mental Ability.”</span> In <em>Historical Foundations of Educational Psychology</em>, edited by John A. Glover and Royce R. Ronning, 61–88. Boston, MA: Springer US. <a href="https://doi.org/10.1007/978-1-4899-3620-2_4">https://doi.org/10.1007/978-1-4899-3620-2_4</a>.
+</div>
+<div id="ref-johnson2004" class="csl-entry" role="doc-biblioentry">
+Johnson, Wendy, Thomas J Bouchard, Robert F Krueger, Matt McGue, and Irving I Gottesman. 2004. <span>“Just One g: Consistent Results from Three Test Batteries.”</span> <em>Intelligence</em> 32 (1): 95–107. https://doi.org/<a href="https://doi.org/10.1016/S0160-2896(03)00062-X">https://doi.org/10.1016/S0160-2896(03)00062-X</a>.
+</div>
+<div id="ref-johnson2008" class="csl-entry" role="doc-biblioentry">
+Johnson, Wendy, Jan te Nijenhuis, and Thomas J. Bouchard. 2008. <span>“Still Just 1 g: Consistent Results from Five Test Batteries.”</span> <em>Intelligence</em> 36 (1): 81–95. https://doi.org/<a href="https://doi.org/10.1016/j.intell.2007.06.001">https://doi.org/10.1016/j.intell.2007.06.001</a>.
+</div>
+<div id="ref-keith2001" class="csl-entry" role="doc-biblioentry">
+Keith, Timothy, John Kranzler, and Dawn Flanagan. 2001. <span>“What Does the Cognitive Assessment System (CAS) Measure? Joint Confirmatory Factor Analysis of the CAS and the Woodcock-Johnson Tests of Cognitive Ability.”</span> <em>School Psychology Review</em> 30 (March): 89–119. <a href="https://doi.org/10.1080/02796015.2001.12086102">https://doi.org/10.1080/02796015.2001.12086102</a>.
+</div>
+<div id="ref-kievit2016" class="csl-entry" role="doc-biblioentry">
+Kievit, Rogier A., Simon W. Davis, John Griffiths, Marta M. Correia, Cam-CAN, and Richard N. Henson. 2016. <span>“A Watershed Model of Individual Differences in Fluid Intelligence.”</span> <em>Neuropsychologia</em> 91: 186–98. https://doi.org/<a href="https://doi.org/10.1016/j.neuropsychologia.2016.08.008">https://doi.org/10.1016/j.neuropsychologia.2016.08.008</a>.
+</div>
+<div id="ref-lee2019" class="csl-entry" role="doc-biblioentry">
+Lee, James, Matt Mcgue, William Iacono, Andrew Michael, and Christopher Chabris. 2019. <span>“The Causal Influence of Brain Size on Human Intelligence: Evidence from Within-Family Phenotypic Associations and GWAS Modeling.”</span> <em>Intelligence</em> 75 (July): 48–58. <a href="https://doi.org/10.1016/j.intell.2019.01.011">https://doi.org/10.1016/j.intell.2019.01.011</a>.
+</div>
+<div id="ref-melbylervag2013" class="csl-entry" role="doc-biblioentry">
+Melby-Lervåg, Monica, and Charles Hulme. 2013. <span>“Is Working Memory Training Effective? A Meta-Analytic Review.”</span> <em>Developmental Psychology</em> 49 2: 270–91.
+</div>
+<div id="ref-penke2012" class="csl-entry" role="doc-biblioentry">
+Penke, Lars, Susana Muñoz Maniega, M. E. Bastin, M. Hernandez, C Murray, Natalie Royle, J Starr, Joanna Wardlaw, and I. J. Deary. 2012. <span>“Brain White Matter Tract Integrity as a Neural Foundation for General Intelligence.”</span> <em>Molecular Psychiatry</em> 17 (May): 1026–30. <a href="https://doi.org/10.1038/mp.2012.66">https://doi.org/10.1038/mp.2012.66</a>.
+</div>
+<div id="ref-petrill1997" class="csl-entry" role="doc-biblioentry">
+Petrill, Stephen A. 1997. <span>“Molarity Versus Modularity of Cognitive Functioning?: A Behavioral Genetic Perspective.”</span> <em>Current Directions in Psychological Science</em> 6 (4): 96–99. <a href="https://doi.org/10.1111/1467-8721.ep11512833">https://doi.org/10.1111/1467-8721.ep11512833</a>.
+</div>
+<div id="ref-pietschnig2022" class="csl-entry" role="doc-biblioentry">
+Pietschnig, Jakob, Daniel Gerdesmann, Michael Zeiler, and Martin Voracek. 2022. <span>“Of Differing Methods, Disputed Estimates and Discordant Interpretations: The Meta-Analytical Multiverse of Brain Volume and IQ Associations.”</span> <em>Royal Society Open Science</em> 9 (5): 211621. <a href="https://doi.org/10.1098/rsos.211621">https://doi.org/10.1098/rsos.211621</a>.
+</div>
+<div id="ref-pietschnig2015" class="csl-entry" role="doc-biblioentry">
+Pietschnig, Jakob, Lars Penke, Jelte Wicherts, Michael Zeiler, and Martin Voracek. 2015. <span>“Meta-Analysis of Associations Between Human Brain Volume and Intelligence Differences: How Strong Are They and What Do They Mean?”</span> <em>Neuroscience and Biobehavioral Reviews</em> 57 (October). <a href="https://doi.org/10.1016/j.neubiorev.2015.09.017">https://doi.org/10.1016/j.neubiorev.2015.09.017</a>.
+</div>
+<div id="ref-plomin2004" class="csl-entry" role="doc-biblioentry">
+Plomin, Robert, and Frank M Spinath. 2004. <span>“Intelligence: Genetics, Genes, and Genomics.”</span> <em>Journal of Personality and Social Psychology</em> 86 (1): 112–29. <a href="https://doi.org/10.1037/0022-3514.86.1.112">https://doi.org/10.1037/0022-3514.86.1.112</a>.
+</div>
+<div id="ref-polderman2015" class="csl-entry" role="doc-biblioentry">
+Polderman, Tinca JC, Beben Benyamin, Christiaan A de Leeuw, Patrick F Sullivan, Arjen van Bochoven, Peter M Visscher, and Danielle Posthuma. 2015. <span>“Meta-Analysis of the Heritability of Human Traits Based on Fifty Years of Twin Studies.”</span> <em>Nature Genetics</em> 47 (7): 702–9. <a href="https://doi.org/10.1038/ng.3285">https://doi.org/10.1038/ng.3285</a>.
+</div>
+<div id="ref-ree1994" class="csl-entry" role="doc-biblioentry">
+Ree, Malcolm James, James A. Earles, and Mark S. Teachout. 1994. <span>“Predicting Job Performance: Not Much More Than g..”</span> <em>Journal of Applied Psychology</em> 79: 518–24.
+</div>
+<div id="ref-ree1991" class="csl-entry" role="doc-biblioentry">
+Ree, Malcom James, and James A. Earles. 1991. <span>“PREDICTING TRAINING SUCCESS: NOT MUCH MORE THAN g.”</span> <em>Personnel Psychology</em> 44 (2): 321–32. https://doi.org/<a href="https://doi.org/10.1111/j.1744-6570.1991.tb00961.x">https://doi.org/10.1111/j.1744-6570.1991.tb00961.x</a>.
+</div>
+<div id="ref-robertson2010" class="csl-entry" role="doc-biblioentry">
+Robertson, Kimberley Ferriman, Stijn Smeets, David Lubinski, and Camilla P. Benbow. 2010. <span>“Beyond the Threshold Hypothesis: Even Among the Gifted and Top Math/Science Graduate Students, Cognitive Abilities, Vocational Interests, and Lifestyle Preferences Matter for Career Choice, Performance, and Persistence.”</span> <em>Current Directions in Psychological Science</em> 19 (6): 346–51. <a href="https://doi.org/10.1177/0963721410391442">https://doi.org/10.1177/0963721410391442</a>.
+</div>
+<div id="ref-rushton2007" class="csl-entry" role="doc-biblioentry">
+Rushton, J Philippe, Trudy Ann Bons, Philip A Vernon, and Jelena Cvorović. 2007. <span>“Genetic and Environmental Contributions to Population Group Differences on the Raven’s Progressive Matrices Estimated from Twins Reared Together and Apart.”</span> <em>Proceedings of the Royal Society B: Biological Sciences</em> 274 (1619): 1773–77. <a href="https://doi.org/10.1098/rspb.2007.0461">https://doi.org/10.1098/rspb.2007.0461</a>.
+</div>
+<div id="ref-rushton2009" class="csl-entry" role="doc-biblioentry">
+Rushton, J, and C Ankney. 2009. <span>“Whole Brain Size and General Mental Ability: A Review.”</span> <em>The International Journal of Neuroscience</em> 119 (April): 691–731. <a href="https://doi.org/10.1080/00207450802325843">https://doi.org/10.1080/00207450802325843</a>.
+</div>
+<div id="ref-schmidt1998" class="csl-entry" role="doc-biblioentry">
+Schmidt, Frank, and John Hunter. 1998. <span>“The Validity and Utility of Selection Methods in Personnel Psychology.”</span> <em>Psychological Bulletin</em> 124 (September): 262–74. <a href="https://doi.org/10.1037/0033-2909.124.2.262">https://doi.org/10.1037/0033-2909.124.2.262</a>.
+</div>
+<div id="ref-schmidt2004" class="csl-entry" role="doc-biblioentry">
+———. 2004. <span>“General Mental Ability in the World of Work: Occupational Attainment and Job Performance.”</span> <em>Journal of Personality and Social Psychology</em> 86 (February): 162–73. <a href="https://doi.org/10.1037/0022-3514.86.1.162">https://doi.org/10.1037/0022-3514.86.1.162</a>.
+</div>
+<div id="ref-tenijenhuis2014" class="csl-entry" role="doc-biblioentry">
+te Nijenhuis, Jan, Kenya Kura, and Yoon-Mi Hur. 2014. <span>“The Correlation Between g Loadings and Heritability in Japan: A Meta-Analysis.”</span> <em>Intelligence</em> 46: 275–82. https://doi.org/<a href="https://doi.org/10.1016/j.intell.2014.07.008">https://doi.org/10.1016/j.intell.2014.07.008</a>.
+</div>
+<div id="ref-tenijenhuis2007" class="csl-entry" role="doc-biblioentry">
+te Nijenhuis, Jan, Annelies E. M. van Vianen, and Henk van der Flier. 2007. <span>“Score Gains on g-Loaded Tests: No g.”</span> <em>Intelligence</em> 35 (3): 283–300. https://doi.org/<a href="https://doi.org/10.1016/j.intell.2006.07.006">https://doi.org/10.1016/j.intell.2006.07.006</a>.
+</div>
+<div id="ref-vanbloois2009" class="csl-entry" role="doc-biblioentry">
+Van Bloois, RM, LL Geutjes, J te Nijenhuis, and IE de Pater. 2009. <span>“G Loadings and Their True Score Correlations with Heritability Coefficients, Giftedness, and Mental Retardation: Three Psychometric Meta-Analyses.”</span>
+</div>
+<div id="ref-vanveluw2012" class="csl-entry" role="doc-biblioentry">
+Veluw, Susanne van, Eva Sawyer, Linda Clover, Helena Cousijn, Christiaan Jager, Margaret Esiri, and Steven Chance. 2012. <span>“Prefrontal Cortex Cytoarchitecture in Normal Aging and Alzheimer’s Disease: A Relationship with IQ.”</span> <em>Brain Structure and Function</em> 217 (October). <a href="https://doi.org/10.1007/s00429-012-0381-x">https://doi.org/10.1007/s00429-012-0381-x</a>.
+</div>
+<div id="ref-vinney2021" class="csl-entry" role="doc-biblioentry">
+Vinney, Cynthia. 2021. <span>“Understanding the Triarchic Theory of Intelligence.”</span> <a href="https://www.thoughtco.com/triarchic-theory-of-intelligence-4172497" class="uri">https://www.thoughtco.com/triarchic-theory-of-intelligence-4172497</a>.
+</div>
+<div id="ref-woodleyofmenie2016" class="csl-entry" role="doc-biblioentry">
+Woodley of Menie, Michael A., Jan te Nijenhuis, Heitor B. F. Fernandes, and Daniel Metzen. 2016. <span>“Small to Medium Magnitude Jensen Effects on Brain Volume: A Meta-Analytic Test of the Processing Volume Theory of General Intelligence.”</span> <em>Learning and Individual Differences</em> 51: 215–19. https://doi.org/<a href="https://doi.org/10.1016/j.lindif.2016.09.007">https://doi.org/10.1016/j.lindif.2016.09.007</a>.
+</div>
+</div>
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const disableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'prefetch';
+    }
+  }
+  const enableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'stylesheet';
+    }
+  }
+  const manageTransitions = (selector, allowTransitions) => {
+    const els = window.document.querySelectorAll(selector);
+    for (let i=0; i < els.length; i++) {
+      const el = els[i];
+      if (allowTransitions) {
+        el.classList.remove('notransition');
+      } else {
+        el.classList.add('notransition');
+      }
+    }
+  }
+  const toggleColorMode = (alternate) => {
+    // Switch the stylesheets
+    const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+    manageTransitions('#quarto-margin-sidebar .nav-link', false);
+    if (alternate) {
+      enableStylesheet(alternateStylesheets);
+      for (const sheetNode of alternateStylesheets) {
+        if (sheetNode.id === "quarto-bootstrap") {
+          toggleBodyColorMode(sheetNode);
+        }
+      }
+    } else {
+      disableStylesheet(alternateStylesheets);
+      toggleBodyColorPrimary();
+    }
+    manageTransitions('#quarto-margin-sidebar .nav-link', true);
+    // Switch the toggles
+    const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+    for (let i=0; i < toggles.length; i++) {
+      const toggle = toggles[i];
+      if (toggle) {
+        if (alternate) {
+          toggle.classList.add("alternate");     
+        } else {
+          toggle.classList.remove("alternate");
+        }
+      }
+    }
+    // Hack to workaround the fact that safari doesn't
+    // properly recolor the scrollbar when toggling (#1455)
+    if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+      manageTransitions("body", false);
+      window.scrollTo(0, 1);
+      setTimeout(() => {
+        window.scrollTo(0, 0);
+        manageTransitions("body", true);
+      }, 40);  
+    }
+  }
+  const isFileUrl = () => { 
+    return window.location.protocol === 'file:';
+  }
+  const hasAlternateSentinel = () => {  
+    let styleSentinel = getColorSchemeSentinel();
+    if (styleSentinel !== null) {
+      return styleSentinel === "alternate";
+    } else {
+      return false;
+    }
+  }
+  const setStyleSentinel = (alternate) => {
+    const value = alternate ? "alternate" : "default";
+    if (!isFileUrl()) {
+      window.localStorage.setItem("quarto-color-scheme", value);
+    } else {
+      localAlternateSentinel = value;
+    }
+  }
+  const getColorSchemeSentinel = () => {
+    if (!isFileUrl()) {
+      const storageValue = window.localStorage.getItem("quarto-color-scheme");
+      return storageValue != null ? storageValue : localAlternateSentinel;
+    } else {
+      return localAlternateSentinel;
+    }
+  }
+  let localAlternateSentinel = 'default';
+  // Dark / light mode switch
+  window.quartoToggleColorScheme = () => {
+    // Read the current dark / light value 
+    let toAlternate = !hasAlternateSentinel();
+    toggleColorMode(toAlternate);
+    setStyleSentinel(toAlternate);
+  };
+  // Ensure there is a toggle, if there isn't float one in the top right
+  if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+    const a = window.document.createElement('a');
+    a.classList.add('top-right');
+    a.classList.add('quarto-color-scheme-toggle');
+    a.href = "";
+    a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+    const i = window.document.createElement("i");
+    i.classList.add('bi');
+    a.appendChild(i);
+    window.document.body.appendChild(a);
+  }
+  // Switch to dark mode if need be
+  if (hasAlternateSentinel()) {
+    toggleColorMode(true);
+  } else {
+    toggleColorMode(false);
+  }
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./sesfactors.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Aren’t people are low IQ because they’re poor?</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./altmodels.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Aren’t other models of intelligence more valid?</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+</body></html>
