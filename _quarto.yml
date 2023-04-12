@@ -3,6 +3,9 @@ project:
   output-dir: docs
 
 
+website:
+  favicon: images/bulb.png
+
 book:
   title: "IQ"
   author: "Aj!"
