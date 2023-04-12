@@ -9,7 +9,6 @@ book:
   date: "4/5/2023"
   chapters:
     - index.qmd
-    - 1tooabstract.qmd
     - 2justtests.qmd
     - 3trustworthy.qmd
     - 4notuseful.qmd
