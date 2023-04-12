@@ -14,7 +14,7 @@ The significance of this "positive manifold" is that we would not expect someone
 
 ## Other evidence for _g_
 
-### Predictive validity of _g_-loaded and non-_g_-loaded tasks
+### Jensen effects
 
 Practical validity: General intelligence is a good predictor of several seemingly unrelated life outcomes. For example, IQ is the best single predictor of academic and job performance and attainment, and one of the best predictors of a plethora of other outcomes, from income, welfare dependency, and criminality [@gottfredson1997b] to [health and mortality](https://en.wikipedia.org/wiki/Cognitive_epidemiology) and scientific and literary creativity [@robertson2010], and any number of other things, including even investing success [@grinblatt2012]. If you had to predict the life outcomes of a teenager based on only one fact about them, nothing would be nearly as informative as their IQ.
 
@@ -28,7 +28,7 @@ __Hollowness of IQ training effects__
 
 Another interesting fact about g is that there is there is a systematic relation between g loadings and practice effects in IQ tests. A meta-analysis of re-testing effects on IQ scores showed that there is a perfect negative correlation between score gains and g loadings of tests [@tenijenhuis2007]. It appears that specific abilities are trainable but g is generally not (see also @arendasy2013). Similarly, a recent meta-analysis of the effects of working memory training on intelligence showed, in line with many earlier reviews, that cognitive training produces short-term gains in the specific abilities trained, but no “far transfer” to any other abilities [@melbylervag2013]. Jensen called such gains hollow because they do not seem to represent actual improvements in real-world intellectual performance. These findings are consistent with the view that g is a “central processing unit” that cannot be defined in terms of specific abilities and is not affected by changes in those abilities.
 
-### Quantitative genetic evidence
+### Quantitative genetic correlates
 
 On a biological level, cognitive abilities are heritable. [@polderman2015] Higher g-loadings correlate to higher heritabilities [@jensen1987],[@rushton2007], [@vanbloois2009],[@tenijenhuis2014]. Quantitative genetic analyses indicate that g is an even stronger genetic variable than it is a phenotypic variable. [@plomin2004] states, 
 
